@@ -6,7 +6,7 @@ import cors from "cors"
 import cookieParser from "cookie-parser"
 dotenv.config()
 const app=express()
-app.use(cors( { origin: ["http://localhost:5173"] , credentials: true, } ))
+app.use(cors( { origin: ["https://master-auth-7hwv-enk54p71w-rushikesh-avachats-projects-5cd454f2.vercel.app/"] , credentials: true, } ))
 app.use(cookieParser())
 app.use(express.json())
 app.use("/auth", UserRouter)
