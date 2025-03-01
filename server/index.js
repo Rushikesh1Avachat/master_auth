@@ -9,7 +9,7 @@ import { UserRouter } from './routes/user.js'
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://master-auth-7hwv-ile00vbiz-rushikesh-avachats-projects-5cd454f2.vercel.app"],
     credentials: true
 }))
 app.use(cookieParser())
